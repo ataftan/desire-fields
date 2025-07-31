@@ -1,0 +1,163 @@
+@font-face {
+  font-family: Fugit-Light;
+  src: url(assets/type/Fugit-Light.otf);
+}
+
+@font-face {
+  font-family: Pantasia-Regular;
+  src: url(assets/type/PantasiaUnlicencedTrial-Regular.otf);
+}
+
+@font-face {
+  font-family: PPRightSerifMono-Fine;
+  src: url(assets/type/PPRightSerifMono-Fine.otf);
+}
+
+body,
+html {
+  padding: 0px;
+  margin: 0px;
+  cursor: ne-resize;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("assets/Artboard 1-1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+::-webkit-scrollbar {
+  background: none;
+}
+
+/* custom cursor */
+#circularcursor {
+  background-color: transparent;
+  border: 1px solid transparent;
+  font-size: 20px;
+  pointer-events: none;
+
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+  position: absolute;
+  z-index: 9999;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  cursor: none;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+  cursor: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: blue;
+  cursor: none;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-around;
+  grid-row-gap: 1px;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  padding: 1px;
+
+}
+
+.main>div {
+  text-align: center;
+  padding: 15px;
+
+}
+
+.ripened {
+  font-family: "PPRightSerifMono-Fine", monospace;
+
+  /* font-family: "Fugit-Light"; */
+  font-size: 0.8em;
+  letter-spacing: 0px;
+
+
+}
+
+
+.rosary {
+  /* font-family: "Director", monospace ; */
+  font-size: 1em;
+
+  font-family: "Pantasia-Regular";
+  letter-spacing: -2px;
+
+}
+
+.about.rosary{
+  letter-spacing:0px;
+}
+
+.earthseed {
+  font-family: "Fugit-Light";
+  font-size: 1.5em;
+  letter-spacing: -1.4px;
+
+}
+
+.green-fruit:hover {
+     background: radial-gradient(circle at center, white 70%, rgba(245, 255, 250, 1) 100%);
+  border-radius: 20px;
+  box-shadow: 
+    0 0 100px 40px rgba(109, 247, 173, 0.3),
+        inset 0 0 80px 40px rgba(109, 247, 173, 0.3),
+
+    0 0 40px 20px rgba(109, 247, 173, 0.2);
+
+
+}
+
+.purple-fruit:hover {
+   background: radial-gradient(circle at center, white 70%, rgba(245, 255, 250, 1) 100%);
+  border-radius: 20px;
+  box-shadow: 
+    0 0 100px 40px rgba(227, 146, 239, 0.3),
+        inset 0 0 80px 40px rgba(227, 146, 239, 0.3),
+
+    0 0 40px 20px rgba(227, 146, 239, 0.2);
+ 
+}
+
+.blue-fruit:hover {
+  text-shadow: 0 0 20px rgba(22, 3, 232, 0.6), 0 0 40px rgba(22, 3, 232, 0.6);
+  border-radius: 20px;
+
+  box-shadow: 
+    0 0 90px 20px rgba(22, 3, 232, 0.3),
+        inset 0 0 50px 40px rgba(22, 3, 232, 0.3),
+            0 0 40px 20px rgba(22, 3, 232,, 0.2);
+
+}
+.yellow-fruit:hover {
+text-shadow: 
+  0 0 5px rgba(231, 237, 146, 1),
+  0 0 15px rgba(231, 237, 146, 0.9),
+  0 0 30px rgba(193, 196, 151, 0.8),
+  0 0 60px rgba(193, 196, 151, 0.6),
+  0 0 100px rgba(193, 196, 151, 0.4); 
+   border-radius: 20px;
+  
+   box-shadow: 
+    0 0 90px 20px rgba(231, 237, 146, 0.3),
+        inset 0 0 50px 40px rgba(231, 237, 146, 0.3),
+            0 0 40px 20px rgba(231, 237, 146, 0.2);
+
+}
