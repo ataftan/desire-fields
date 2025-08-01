@@ -17,9 +17,7 @@
   src: url(assets/type/PPRightSerifMono-Fine.otf);
 }
 
-body.custom-font {
-  font-family: "Cling", sans-serif;
-}
+
 body,
 html {
   padding: 0px;
