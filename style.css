@@ -247,3 +247,13 @@ place-items: center;
   font-family: "Pantasia-Regular";
 
 }}
+
+@media (min-width:830px){
+  
+
+
+
+
+.mobile{
+    display: none;
+}}
