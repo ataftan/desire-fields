@@ -33,6 +33,13 @@ html {
   background-repeat: no-repeat;
 }
 
+.custom-font,
+.custom-font * {
+  font-family: "Cling", sans-serif !important;
+  background-color: white !important;
+  color:black !important;
+}
+
 
 ::-webkit-scrollbar {
   background: none;
