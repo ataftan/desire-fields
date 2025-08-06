@@ -27,7 +27,7 @@ html {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  background-image: url("assets/Artboard 1-1.png");
+  background-image: url("assets/img/grey.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,14 +73,11 @@ color:black;
 }
 
 a:hover{
-    color: rgba(227, 146, 239, 1)
+    color: rgb(219, 150, 196)
 
 }
 
-.husk a{
-  color: rgb(92, 192, 162);
 
-}
 
 .husk a{
   color: rgb(92, 192, 162);
@@ -136,6 +133,13 @@ a:hover{
 
 }
 
+.fields{
+  
+  width: 200px;       /* or 100% or any size you want */
+  overflow: hidden; 
+}
+
+
 .green-fruit:hover {
      background: radial-gradient(circle at center, white 70%, rgba(245, 255, 250, 1) 100%);
   border-radius: 20px;
@@ -152,10 +156,10 @@ a:hover{
    background: radial-gradient(circle at center, white 70%, rgba(245, 255, 250, 1) 100%);
   border-radius: 20px;
   box-shadow: 
-    0 0 100px 40px rgba(227, 146, 239, 0.3),
-        inset 0 0 80px 40px rgba(227, 146, 239, 0.3),
+    0 0 100px 40px rgba(219, 150, 196, 0.3),
+        inset 0 0 80px 40px rgba(219, 150, 196, 0.3),
 
-    0 0 40px 20px rgba(227, 146, 239, 0.2);
+    0 0 40px 20px rgba(219, 150, 196, 0.2);
  
 }
 
@@ -163,10 +167,10 @@ a:hover{
   background: radial-gradient(circle at center, white 70%, rgba(245, 255, 250, 1) 100%);
   border-radius: 20px;
   box-shadow: 
-    0 0 100px 40px rgba(227, 146, 239, 0.3),
-        inset 0 0 80px 40px rgba(227, 146, 239, 0.3),
+    0 0 100px 40px rgba(219, 150, 196, 0.4),
+        inset 0 0 80px 40px rgba(219, 150, 196, 0.4),
 
-    0 0 40px 20px rgba(227, 146, 239, 0.2);
+    0 0 40px 20px rgba(219, 150, 196, 0.3);
 
 }
 .blue-fruit:hover {
@@ -234,13 +238,21 @@ font-size:1.2em;
   }
 
   .word:hover {
-    color: rgb(92, 192, 162) !important;
+    color: rgb(150, 219, 191)!important;
 
 
   }
 
 @media (max-width:830px){
   
+body,
+html {
+  
+  background-image: url("assets/img/bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 .main{
