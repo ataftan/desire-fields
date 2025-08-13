@@ -27,7 +27,7 @@ html {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  background-image: url("assets/img/color-17.png");
+  background-image: url("assets/img/gold.png");
   background-size: cover;
   background-position: center;
   
@@ -61,6 +61,8 @@ html {
   z-index: 9999;
 }
 
+
+
 a {
   text-decoration: none;
 color:black;
@@ -74,17 +76,25 @@ color:black;
 }
 
 a:hover{
-    color: rgb(228, 142, 199)
+  color: rgb(168, 79, 139)!important;
 
 }
 
-
+#toggleFont:hover a,
+#toggleFont a:hover {
+  color: rgb(238, 178, 218) !important;
+}
 
 .husk a{
-  color: rgb(92, 192, 162);
+  /* color: #aba169; */
+  color:black;
 
 }
+.husk a:hover{
+  color: #aba169 !important;
+  
 
+}
 
 .main {
   display: grid;
@@ -141,21 +151,12 @@ a:hover{
 }
 
 
-.green-fruit:hover {
-     background: radial-gradient(circle at center, white 70%, rgba(245, 255, 250, 1) 100%);
-  border-radius: 20px;
-  box-shadow: 
-    0 0 100px 40px rgba(109, 247, 173, 0.3),
-        inset 0 0 80px 40px rgba(109, 247, 173, 0.3),
 
-    0 0 40px 20px rgba(109, 247, 173, 0.2);
-
-
-}
 
 .purple-fruit:hover {
    background: radial-gradient(circle at center, white 70%, rgba(245, 255, 250, 1) 100%);
   border-radius: 20px;
+
   box-shadow: 
     0 0 100px 40px rgba(219, 150, 196, 0.3),
         inset 0 0 80px 40px rgba(219, 150, 196, 0.3),
@@ -163,6 +164,8 @@ a:hover{
     0 0 40px 20px rgba(219, 150, 196, 0.2);
  
 }
+
+
 
 .hypertext{
   background: radial-gradient(circle at center, white 70%, rgba(245, 255, 250, 1) 100%);
@@ -175,31 +178,7 @@ a:hover{
     0 0 40px 20px rgba(228, 142, 199, 0.3);
 
 }
-.blue-fruit:hover {
-  text-shadow: 0 0 20px rgba(22, 3, 232, 0.6), 0 0 40px rgba(22, 3, 232, 0.6);
-  border-radius: 20px;
 
-  box-shadow: 
-    0 0 90px 20px rgba(22, 3, 232, 0.3),
-        inset 0 0 50px 40px rgba(22, 3, 232, 0.3),
-            0 0 40px 20px rgba(22, 3, 232, 0.2);
-
-}
-.yellow-fruit:hover {
-text-shadow: 
-  0 0 5px rgba(231, 237, 146, 1),
-  0 0 15px rgba(231, 237, 146, 0.9),
-  0 0 30px rgba(193, 196, 151, 0.8),
-  0 0 60px rgba(193, 196, 151, 0.6),
-  0 0 100px rgba(193, 196, 151, 0.4); 
-   border-radius: 20px;
-  
-   box-shadow: 
-    0 0 90px 20px rgba(231, 237, 146, 0.3),
-        inset 0 0 50px 40px rgba(231, 237, 146, 0.3),
-            0 0 40px 20px rgba(231, 237, 146, 0.2);
-
-}
 
 
 /* additional */
@@ -239,11 +218,12 @@ font-size:1.2em;
     display: inline-block;
   }
 
-  .word:hover {
-    color: rgb(150, 219, 191)!important;
+.husk .word:hover:not(a .word) {
+  color: rgb(237, 157, 210) !important;
+}
 
 
-  }
+
 
 @media (max-width:830px){
   
